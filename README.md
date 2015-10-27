@@ -18,7 +18,11 @@ index_test.py is an added test to make sure indexes are correct. sec_filing.py n
 
 # File breakdown
 Dependencies.txt - required modules
+
 index_test.py - index test
+
 kcli-ex10o_20131231x10k - example folder and files created sec_filing.py
+
 README.md - a read with appropriate information
+
 sec_filing.py - main script
