@@ -2,9 +2,11 @@
 Takes an online SEC filing, turns it into a txt document and parses that document for the start and stop index of paragraphs containing a `$`. The resulting index is then put into a new document for reference. This script creates a folder using the last indices of the url provide (if the folder is not already created) and outputs two files. `document.txt` is the filing in txt format and `paragraph.txt` is the resulting index.
 
 # Requirements:
+```
 beautifulsoup4==4.4.1
 html2text==2015.6.21
 requests==2.7.0
+```
 
 # Running:
 python3 sec_filing.py
