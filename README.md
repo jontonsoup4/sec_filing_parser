@@ -9,7 +9,7 @@ requests==2.7.0
 ```
 
 # Running:
-python3 sec_filing.py
+`python3 sec_filing.py`
 
 When prompted, paste the desired url to parse.
 
@@ -19,12 +19,10 @@ example url: http://www.sec.gov/Archives/edgar/data/54473/000005447314000007/kcl
 index_test.py is an added test to make sure indexes are correct. sec_filing.py needs to have already created the resulting files in order to test. When run, input the url and the start/stop index values that you wish to check.
 
 # File breakdown
-Dependencies.txt - required modules
-
-index_test.py - index test
-
-kcli-ex10o_20131231x10k - example folder and files created sec_filing.py
-
-README.md - a read with appropriate information
-
-sec_filing.py - main script
+```
+Dependencies.txt: required modules
+index_test.py: index test
+kcli-ex10o_20131231x10k: example folder and files created sec_filing.py
+README.md: a read with appropriate information
+sec_filing.py: main script
+```
